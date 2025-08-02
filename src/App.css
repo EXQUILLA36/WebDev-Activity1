@@ -1,12 +1,19 @@
 @import "tailwindcss";
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
   background-image: url(./assets/steve-johnson-2gK8CM-bIFk-unsplash.jpg);
   background-size: cover;
   color: #333;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blurry {
+  backdrop-filter: blur(100px);
 }
 
 .mainBox {
