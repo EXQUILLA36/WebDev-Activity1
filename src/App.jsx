@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <div className='mainBox relative w-[28vw] max-sm:w-[70vw] h-[65vh] max-sm:h-[50vh] rounded-[15px] border-2 flex flex-col items-center gap-3 pt-7'>
+    <div className='mainBox relative w-[28vw] max-sm:w-[70vw] h-[65vh] max-sm:h-[50vh] rounded-[15px] border-2 flex flex-col items-center gap-3 pt-7 backdrop-blur-sm'>
       <div className='relative font-[900] mb-2.5'><h1 >Create an Account</h1></div>
       <div className='w-[85%] h-[80%]'>
         <form action="submit" className="flex flex-col justify-around items-center h-full">
